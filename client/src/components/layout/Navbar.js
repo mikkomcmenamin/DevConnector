@@ -1,11 +1,11 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <nav className="navbar bg-dark">
       <h1>
-        <Link to ="/">
+        <Link to="/">
           <i className="fas fa-code"></i> DevConnector
         </Link>
       </h1>
